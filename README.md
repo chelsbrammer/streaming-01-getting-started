@@ -20,11 +20,6 @@ You should have these downloaded and installed on your machine:
 1. VS Code Extension: Python
 1. Git (configured with user.name and user.email - the same email you use for GitHub)
 
-Remember:
-
-- **Spacing, Spelling, Capitalization**: When programming, these are critical. Always double-check!
-
----
 
 ## Open Project Folder in VS Code
 
@@ -34,16 +29,6 @@ In VS Code, open just your project repository folder, e.g. Documents/streaming-0
 
 In VS Code, open a terminal window (View / Terminal) and verify your software is installed and configured.
 
-- If Mac/Linux, the default terminal should work.
-- If Windows, be sure you're using a PowerShell terminal (rather than cmd).
-
-Important: 
-
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
-- Type each command rather than copy & paste for best results. 
-- Wait for each command to complete before running the next command.
-
 ```shell
 git --version
 git config user.name
@@ -51,10 +36,6 @@ git config user.email
 python --version
 python -m pip install --upgrade pip wheel
 ```
-
-✔️ Make sure all commands complete successfully. 
-If not, post your screenshots and the text of the error message in the discussion.
-They all must run successfully before continuing.
 
 ## Execute Utility Script (Diagnostics)
 
@@ -70,20 +51,9 @@ Use the terminal and the python command to execute the Python script.
 
 1. Use your VS Code terminal window from above or open a new terminal window (View / Terminal) in VS Code.
 
-Important: 
-
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
-
 ```shell
 python util_about.py
 ```
-
-✔️ Make sure your script runs successfully. 
-If not, post your screenshots and the text of the error message in the discussion.
-This script must run successfully before continuing. 
----
-
 
 ## Explore & Execute Project Scripts
 
@@ -98,12 +68,6 @@ When you finish, you'll have an idea of some things possible using just the Pyth
 You'll have generated several new data files.
 The streaming process will run continuously for quite a while. 
 Read the comments in the file to learn how to stop the process.
-
-Important: 
-
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
-- Wait for each script to finish. Did you generate a new datafile? What is the name?
 
 ```shell
 python process_batch_A.py
@@ -120,10 +84,6 @@ python process_batch_C.py
 ```shell
 python process_streaming_0.py
 ```
-
-✔️ Make sure your scripts complete successfully. 
-If not, post screenshots and the text of any error messages in the discussion.
----
 
 ## Update Edit README
 
